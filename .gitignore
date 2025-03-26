@@ -1,2 +1,3 @@
 .venv/
 rawdata/
+.DS_Store

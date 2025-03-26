@@ -1,5 +1,20 @@
 # article-network-analysis
 
+### **Quick Guide to Interpreting the Graph**  
+
+✅ **Colors** → Each color represents a **thematic group (cluster)** of words that frequently appear together. Words in the same color are more **strongly related** in meaning.  
+
+✅ **Lines (Edges)** → A line (connection) means **two words co-occur** within the same part of the manuscript.  
+- **Thicker lines** = Stronger relationships (words appear together often).  
+- **Thinner lines** = Weaker connections (words rarely appear together).  
+
+✅ **Node Size** → Bigger words are **more important** in the text.  
+- **High-degree words** (many connections) are **key discussion points**.  
+- **Smaller words** may be **supporting concepts**.  
+
+✅ **Clusters (Groups of Nodes)** → Densely connected areas indicate **core topics** in the manuscript. Isolated clusters may suggest **separate discussions** that are not well integrated.  
+
+
 ### Effects, benefits (✅), and drawbacks (❌) of different parameters:
 
 | **Parameter**   | **Low Value Effect** | **High Value Effect** |
